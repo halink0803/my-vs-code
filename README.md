@@ -25,19 +25,25 @@ Since I move from Sublime Text to Visual Studio Code for most of my works, so in
 ## Package
 
 ### Ayu theme
-[Ayu](Ayu) theme
+[Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) theme
 
 ### Bracket Pair Colorizer
+[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 ### Docker
+[Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 
 ### GitLens
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ### Go
+[Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
 
 ### JSON Tools
+[JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)
 
 ### MagicPython
+[MagicPython]()
 
 ### Markdown Preview Enhanced
 
@@ -48,6 +54,7 @@ Since I move from Sublime Text to Visual Studio Code for most of my works, so in
 ### Pretify JSON
 
 ### Python
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 ### Rest Client
 
