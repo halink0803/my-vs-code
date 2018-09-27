@@ -1,0 +1,35 @@
+// custome variable
+@host = http://example.com
+
+GET {{host}}/comments/1 HTTP/1.1
+
+### sample get request
+
+GET {{host}}/topics/1?query=s HTTP/1.1
+
+### sample content type json
+
+POST {{host}}/comments HTTP/1.1
+Content-Type: -type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###  sample content type xml
+POST {{host}}/comments HTTP/1.1
+Content-Type: application/xml
+Authorization: token xxx
+
+<request>
+    <name>sample</name>
+    <time>Wed, 21 Oct 2015 18:27:50 GMT</time>
+</request>
+
+### sample content type x-www-form-urlencoded
+POST https://api.example.com/login HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+name=foo
+&password=bar
