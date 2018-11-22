@@ -18,6 +18,25 @@ Since I move from Sublime Text to Visual Studio Code for most of my works, so in
     "vim.disableExtension": false,
     "python.linting.enabled": false,
     "breadcrumbs.enabled": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.lineNumbers": "off",
+    "settings.cycle": [{
+        "id": "lineNumbers",
+        "values":[
+            {
+                "editor.lineNumbers": "off",
+            },
+            {
+                "editor.lineNumbers": "on",
+            }
+        ]
+    }
+],
 }
 ```
 
@@ -69,3 +88,32 @@ Since I move from Sublime Text to Visual Studio Code for most of my works, so in
 ### vscode-random
 
 ### YAML Support by Red Hat
+
+### Settings Cycler
+[Settings Cycler](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler)
+
+**keybinding.json**
+
+```json
+    {
+        "key": "cmd+shift+r",
+        "command": "settings.cycle.lineNumbers",
+        "when": "editorFocus"
+    }
+```
+
+**settings.json**
+
+```json
+    "settings.cycle": [{
+        "id": "lineNumbers",
+        "values":[
+            {
+                "editor.lineNumbers": "off",
+            },
+            {
+                "editor.lineNumbers": "on",
+            }
+        ]
+    }
+```

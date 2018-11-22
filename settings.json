@@ -1,0 +1,34 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 25,
+    "editor.fontFamily": "Roboto Mono,Menlo, Monaco, 'Courier New', monospace",
+    "vim.disableExtension": false,
+    "python.linting.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.lineNumbers": "off",
+    "settings.cycle": [
+        {
+        "id": "lineNumbers",
+        "values":[
+                {
+                    "editor.lineNumbers": "off",
+                },
+                {
+                    "editor.lineNumbers": "on",
+                }
+            ]
+        }
+    ],
+}
