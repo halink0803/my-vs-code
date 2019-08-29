@@ -117,3 +117,9 @@ Since I move from Sublime Text to Visual Studio Code for most of my works, so in
         ]
     }
 ```
+
+### Settings Sync
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+### Better Comments
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
